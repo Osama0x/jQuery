@@ -1,0 +1,167 @@
+body{
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    
+
+}
+
+#FillDetails{
+    width:60vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#FillForm{
+    position: relative;
+    top:15vh;
+    height:50vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.s2{
+    position: absolute;
+    left:8vw;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.s3{
+    position: absolute;
+    left:25vw;
+    width: 170px;
+    height: 25px;
+}
+
+#button{
+
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #3B3B3B;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 17%;
+  will-change: transform;
+  position: absolute ;
+  right: 50%;
+}
+
+
+#button:disabled {
+    pointer-events: none;
+  }
+  
+  #button:hover {
+    color: #fff;
+    background-color: #1A1A1A;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+  }
+  
+  #button:active {
+    box-shadow: none;
+    transform: translateY(0);
+  }
+
+
+
+#output{
+    border:2px solid gray;
+    margin-top: 2.75vh;
+    width: 39vw;
+    height: 94.6vh;
+    background-color: rgb(217, 224, 224);
+    position: relative;
+}
+
+#output-details{
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    width: 99%;
+}
+
+p:nth-child(2n){
+    background-color:rgb(179, 177, 177);
+}
+
+p{
+    
+    position: relative;
+    font-size: 1.3rem;
+    padding: 2%;
+    text-align: left;
+    padding-left: 0.5cm;
+    margin: 2px 2px;
+    
+}
+
+b{
+    background-color: green;
+    color: honeydew;
+    font-weight: 500;
+}
+
+
+
+.s1 {
+    font-size: 300%;
+}
+@media print {
+    body  * {
+        display: none;
+    }
+    #output, #output * {
+        display:flow-root   ;
+        /* position: absolute;
+        right: 50%;
+        */
+    }
+    #print , #print *{
+        display: none;
+    }
+   
+   
+}
+.fa-solid {
+
+    font-size: 200%;
+    position:absolute;
+    bottom: 4%;
+    right: 50%;
+    transform: translateX(50%);   
+          
+}
+#s5{
+
+    font-size: 200%;
+
+}
+
+
+    
